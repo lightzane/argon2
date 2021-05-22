@@ -1,5 +1,10 @@
 # Learning Argon2
 
+```
+npm install argon2
+npm install -D @types/argon2
+```
+
 Argon2 is cryptographic hashing algorithm, most recommended for password hashing.<br>
 
 It is designed by Alex Biryukov, Daniel Dinu, and Dmitry Khovratovich from University of Luxembourg.<br>

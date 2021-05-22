@@ -7,7 +7,7 @@
         "start": "node index",
         "build": "tsc index"
     },
-    "author": "",
+    "author": "Lightzane",
     "license": "ISC",
     "dependencies": {
         "argon2": "^0.27.2"
