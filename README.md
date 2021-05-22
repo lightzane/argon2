@@ -5,7 +5,9 @@ Argon2 is cryptographic hashing algorithm, most recommended for password hashing
 It is designed by Alex Biryukov, Daniel Dinu, and Dmitry Khovratovich from University of Luxembourg.<br>
 
 Argon2 has 3 variants:<br>
-Argon2d, Argon2i and Argon2id. Argon2i is optimized for password hashing. Argon2 has 6 input parameters: password, salt, memory cost (the memory usage of the algorithm), time cost (the execution time of the algorithm and the number of iterations), parallelism factor (the number of parallel threads), hash length.
+Argon2d, Argon2i and Argon2id. Argon2i is optimized for password hashing. Argon2 has 6 input parameters: password, salt, memory cost (the memory usage of the algorithm), time cost (the execution time of the algorithm and the number of iterations), parallelism factor (the number of parallel threads), hash length.<br>
+
+Source: [argon2.online](https://argon2.online/#:~:text=Argon2%20is%20cryptographic%20hashing%20algorithm,Argon2d%2C%20Argon2i%20and%20Argon2id.)
 
 ## Getting Started
 
