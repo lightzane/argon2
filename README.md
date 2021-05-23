@@ -45,11 +45,7 @@ async function verifyPassword(pwd) {
 
         if (
             // verify password
-            await argon2.verify(
-                // '$argon2i$v=19$m=4096,t=3,p=1$GqBG+r0sFm0JhENYhbN3RQ$KYe1KazvOohplcZsbozfYBbYyfPLI/+w10SCO64pc80',
-                hash,
-                pwd,
-            )
+            await argon2.verify(hash, pwd)
         ) {
             // password match
             console.log('[O] CORRECT password');
@@ -63,3 +59,18 @@ async function verifyPassword(pwd) {
 
 verifyPassword('password');
 ```
+
+### Hash Password
+
+This is the output after running `.hash()`
+
+```
+$argon2i$v=19$m=4096,t=3,p=1$GqBG+r0sFm0JhENYhbN3RQ$KYe1KazvOohplcZsbozfYBbYyfPLI/+w10SCO64pc80,
+```
+
+## References
+
+-   https://www.npmjs.com/package/argon2
+-   https://github.com/ranisalt/node-argon2#readme
+-   https://github.com/ranisalt/node-argon2/wiki/Options
+-   https://github.com/ranisalt/node-argon2/wiki/Migrating-from-another-hash-function
